@@ -1,0 +1,32 @@
+version: 1
+
+# level -> model: senior/observer = fable (Fable 5.1), junior = opus (Opus 5.5)
+members:
+  # Senior — Fable 5.1
+  principal-eng:      { title: Principal Engineer,            level: senior,   model: fable }
+  staff-backend:      { title: Staff Backend Engineer,        level: senior,   model: fable }
+  staff-frontend:     { title: Staff Frontend Engineer,       level: senior,   model: fable }
+  senior-sre:         { title: Senior Site Reliability Eng,   level: senior,   model: fable }
+  security-lead:      { title: Security Lead,                 level: senior,   model: fable }
+  data-architect:     { title: Data / Database Architect,     level: senior,   model: fable }
+  qa-lead:            { title: QA Lead,                       level: senior,   model: fable }
+  eng-manager:        { title: Engineering Manager,           level: senior,   model: fable }
+  compliance-lead:    { title: Compliance & Governance Lead,  level: senior,   model: fable }
+  senior-ml:          { title: Senior ML / AI Engineer,       level: senior,   model: fable }
+
+  # Junior — Opus 5.5
+  backend-eng:        { title: Backend Engineer,              level: junior,   model: opus }
+  frontend-eng:       { title: Frontend Engineer,             level: junior,   model: opus }
+  fullstack-eng:      { title: Full-stack Engineer,           level: junior,   model: opus }
+  devops-eng:         { title: DevOps Engineer,               level: junior,   model: opus }
+  qa-eng:             { title: QA / Test Engineer,            level: junior,   model: opus }
+  data-eng:           { title: Data Engineer,                 level: junior,   model: opus }
+  release-eng:        { title: Release / Build Engineer,      level: junior,   model: opus }
+  security-analyst:   { title: Security Analyst,              level: junior,   model: opus }
+  performance-eng:    { title: Performance Engineer,          level: junior,   model: opus }
+  dx-writer:          { title: Technical Writer / DX,         level: junior,   model: opus }
+
+  # Isolated reviewer — Fable 5.1, never sees the rounds
+  outside-observer:   { title: Outside Observer,              level: observer, model: fable }
+
+always_included: [principal-eng, outside-observer]
