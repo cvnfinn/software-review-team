@@ -1,4 +1,4 @@
-# eng-team
+# software-review-team
 
 A Claude Code skill that runs a 21-member enterprise engineering team
 deliberation on a design, architecture, migration, security, or delivery
@@ -12,15 +12,15 @@ decision. Deliberation only — the team never edits code.
 ## Install
 
 ```bash
-git clone https://github.com/cvnfinn/eng-team ~/.claude/skills/eng-team
+git clone https://github.com/cvnfinn/software-review-team ~/.claude/skills/software-review-team
 ```
 
 ## Use
 
 ```
-/eng-team Should we split the billing module out of the monolith?
-/eng-team --members staff-backend,data-architect,senior-sre,backend-eng Move sessions to Redis?
-/eng-team --show-rounds <problem>
+/software-review-team Should we split the billing module out of the monolith?
+/software-review-team --members staff-backend,data-architect,senior-sre,backend-eng Move sessions to Redis?
+/software-review-team --show-rounds <problem>
 ```
 
 ## Protocol

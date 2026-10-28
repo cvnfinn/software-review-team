@@ -1,4 +1,4 @@
-# Eng Team Protocol
+# Software Review Team Protocol
 
 Main session = orchestrator. It gathers context, spawns members, passes
 outputs between rounds, and presents the result. It does not add its own

@@ -1,9 +1,9 @@
 ---
-name: eng-team
-description: Run a 21-member enterprise software engineering team deliberation (10 senior engineers on Fable 5.1, 10 junior engineers on Opus 5.5, plus an isolated Outside Observer on Fable 5.1) on an architecture, design, migration, security, reliability, or delivery decision. Use when the user wants an engineering team's verdict, an enterprise design review, or says "eng team", "engineering council", or "run the team on this". Deliberation only — the team does not write or change code.
+name: software-review-team
+description: Run a 21-member enterprise software engineering team deliberation (10 senior engineers on Fable 5.1, 10 junior engineers on Opus 5.5, plus an isolated Outside Observer on Fable 5.1) on an architecture, design, migration, security, reliability, or delivery decision. Use when the user wants an engineering team's verdict, an enterprise design review, or says "software review team", "eng team", "engineering council", or "run the team on this". Deliberation only — the team does not write or change code.
 ---
 
-# Eng Team
+# Software Review Team
 
 A structured deliberation by a full enterprise engineering team. The team
 advises; it never edits files, commits, or runs mutating commands.
